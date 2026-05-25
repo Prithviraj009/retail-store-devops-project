@@ -361,8 +361,6 @@ kubectl get events -n retail-store
 ### **Debug Commands**
 
 ```bash
-# Check all resources
-kubectl get all -A
 
 # Check events across all namespaces
 kubectl get events --sort-by='.lastTimestamp'
